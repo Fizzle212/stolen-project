@@ -1,0 +1,98 @@
+.container {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  color:black;
+  width: 450px;
+  height: 640px;
+  transform: translate(-50%, -50%);
+  background-color: rgb(9, 9, 17);
+  border-radius: 30px;
+  text-align: center;
+  align-items: center;
+  padding-bottom: 1px;
+  
+
+}
+
+.profilepicture {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  overflow: hidden;
+  background-color: blue;
+  position: relative;
+  top: 3%;
+  left:27%;
+}
+
+img {
+  width: 200px;
+  height: 200px;
+  object-fit: cover;
+}
+
+
+/*img {
+  position:relative;
+  width: 200px;
+  top:10%;
+  left: 25%;
+  border-radius: 100px;
+  height: 200px;
+  float: top;
+  padding-top: 15px;
+  margin-right: 300px;
+  
+}*/
+
+.name {
+  font-weight: bolder;
+  font-family: serif;
+  font-size: 28px;
+  color:white;
+}
+
+.country {
+  font-weight: bolder;
+  font-family: serif;
+  font-size: 20px;
+  color:rgb(253, 238, 18);
+}
+
+.occupation {
+  font-weight: bolder;
+  font-family: serif;
+  font-size: 18px;
+  color:rgb(189, 185, 185);
+}
+
+button {
+  background: white;
+    color: black;
+    text-align: center;
+    align-items: center;
+    width: 200px;
+    height: 45px;
+    border: none;
+    margin-bottom: 10px;
+    margin-left: 35px;
+    margin-right: 20px;
+    font-size: 17px;
+    display:flex;
+    padding: 15px 55px;
+    border-radius: 20px;
+    padding-left: 150px;
+    padding-right: 230px;
+    
+
+
+}
+button:hover {
+   cursor: pointer;
+   color: white;
+   background-color: rgb(120, 120, 250);
+   transition: 0.25s;
+
+}
+
